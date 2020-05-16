@@ -60,8 +60,7 @@
     <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+
 </head>
 <body>
     <div class="fh5co-loader"></div>
@@ -125,9 +124,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                        <h2>Hello!</h2>
+                        <h2>Jai Shri Ganesh!</h2>
                         <h3>November 28th, 2020 New Delhi</h3>
-                        <p>We invite you to celebrate our wedding</p>
+                        <p>
+                            With the heavenly blessings of Lat Smt. Shanti Devi & Late Sh. Krishan Lal Oberoi,<br />
+                            Mrs. Anita & Mr. Surender Oberoi<br />
+                            request the sweet fragrance of your loving presence<br />
+                            to shower your blessings on the auspicious occasion of <br />
+                            <div class="display-tc animate-box" data-animate-effect="fadeIn">
+                                <h2>Wedding</h2></div>
+                                <br />of their beloved son
+                        </p>
                     </div>
                 </div>
                 <div class="couple-wrap animate-box">
@@ -137,7 +144,7 @@
                         </div>
                         <div class="desc-groom">
                             <h3>Anuj Oberoi</h3>
-                            <p>The Techie, the Banker, the poet fell in love with the beautiful & charming Bhoomika</p>
+                            <p>The Techie, The Banker</p>
                         </div>
                     </div>
                     <p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -583,15 +590,16 @@
                 <div class="row copyright">
                     <div class="col-md-12 text-center">
                         <p>
-                            <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
-                            <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+                            <small class="block">&copy; 2020 All Rights Reserved.</small>
+                            <small class="block">Designed by <a href="https://www.facebook.com/oberoi.anuj/" target="_blank">Anuj Oberoi</a>, the groom himself</small>
                         </p>
                         <p>
                             <ul class="fh5co-social-icons">
                                 <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/bhoomika.sharma.33" target="_blank"><i class="icon-facebook"></i></a></li>
                                 <li><a href="#"><i class="icon-linkedin"></i></a></li>
                                 <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                                <li><a href="https://www.instagram.com/bhoomika_13/" target="_blank"><i class="icon-instagram"</a></li>
                             </ul>
                         </p>
                     </div>
@@ -631,7 +639,7 @@
     <script src="Scripts/Wedding/main.js"></script>
 
     <script>
-        var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
 
         // default example
         simplyCountdown('.simply-countdown-one', {
@@ -646,13 +654,7 @@
             month: d.getMonth() + 1,
             day: d.getDate(),
             enableUtc: false
-        });
-</script>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
+        });</script>
+
 </body>
 </html>
